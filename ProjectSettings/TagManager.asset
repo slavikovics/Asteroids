@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Weapons
+  - Water
+  - UI
+  - Space Ship
+  - Shield
+  - Fade
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UFO
+    uniqueID: 3752325707
+    locked: 0
+  - name: Asteroid
+    uniqueID: 1516216579
+    locked: 0
+  - name: Weapons
+    uniqueID: 1762002637
+    locked: 0
+  - name: Space Ship
+    uniqueID: 189732429
+    locked: 0
+  - name: Shield
+    uniqueID: 3950924837
+    locked: 0
+  - name: UI
+    uniqueID: 2369324675
+    locked: 0
+  - name: Fade
+    uniqueID: 1733225211
+    locked: 0
+  m_RenderingLayers:
+  - Default
