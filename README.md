@@ -1,5 +1,7 @@
 # Asteroids
 
+![image](./Screenshots/HyperAttack.png)
+
 **Engine**: Unity [Version] 6000.0.46f1
 
 **Pipeline** URP 2D
@@ -162,3 +164,15 @@ Assets/
 - **Description**: UFO's navigation is implemented using NavMeshPlus package. Every UFO is a NavMeshAgent which can move to a certain destination on the scene on a NavMesh baked for the scene. spaceship's teleportation are handles with a help of MavMeshObstacle component attached to independent object which folows ship's movements. This approach was chosen because of continuous NavMesh recalculations when player was rotating a spaceship without splitting up obstacle object and spaceship. 
 
 ---
+
+# Screenshots
+
+![image](./Screenshots/MainMenu.png)
+![image](./Screenshots/About.png)
+![image](./Screenshots/Death.png)
+![image](./Screenshots/DestroyedByUFOs.png)
+![image](./Screenshots/EnterName.png)
+![image](./Screenshots/GamePlayShield.png)
+![image](./Screenshots/Leaderboard.png)
+![image](./Screenshots/UFO.png)
+![image](./Screenshots/UFOGroup.png)

@@ -64,10 +64,30 @@ public class LeaderboardLoader : MonoBehaviour
     
     private void Awake()
     {
+        ClearPlayerPrefsOnFirstLaunch();
+
         if (!_wasLoaded)
         {
             CurrentLeaderboard = new Leaderboard();
             _wasLoaded = true;
+        }
+    }
+
+    private static void ClearPlayerPrefsOnFirstLaunch()
+    {
+        if (!Application.isEditor)
+        {
+            if (PlayerPrefs.GetInt("FirstPlay", 1) == 1)
+            {
+                PlayerPrefs.DeleteAll();
+                PlayerPrefs.SetInt("FirstPlay", 0);
+                PlayerPrefs.Save();
+            }
+        }
+        else
+        {
+            PlayerPrefs.SetInt("FirstPlay", 1);
+            PlayerPrefs.Save();
         }
     }
 
